@@ -1,0 +1,14 @@
+{
+  "name": "ss-json",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prom-client": "^13.1.0"
+  }
+}
