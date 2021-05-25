@@ -12,7 +12,7 @@ let timer, output;
 const registry = new client.Registry();
 
 const activeConnectionsGauge = new client.Gauge({
-    name: 'prisma_active_ws_connections', 
+    name: 'active_ws_connections', 
     help: 'Active web socket connections',
     async collect() {
         this.set(output.connections.length);
